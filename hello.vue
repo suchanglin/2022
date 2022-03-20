@@ -6,14 +6,20 @@
 
 <script>
 export default {
-  name:'hello'
+  name:'hello'，
+  data(){
+  return{
+  list:[],
+  obj:{}
+  }
+  }
 }
 </script>
 
-<style <style lang="less">
+<style lang="less">
 .container{
  color:red
 }
-</style>>
+</style>
 
 
