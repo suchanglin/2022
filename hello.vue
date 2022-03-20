@@ -1,25 +1,23 @@
 <template>
-  <div>
-      <p>this is a file for me test github and git</p>
-  </div>
+    <div>
+        <p>this is a file for me test github and git</p>
+    </div>
 </template>
 
 <script>
-export default {
-  name:'hello',
-  data(){
-  return{
-  list:[],
-  obj:{}
-  }
-  }
-}
+    export default {
+        name: 'hello',
+        data() {
+            return {
+                list: [],
+                obj: {}
+            }
+        }
+    }
 </script>
 
 <style lang="less">
-.container{
- color:red
-}
+    .container {
+        color: red;
+    }
 </style>
-
-
