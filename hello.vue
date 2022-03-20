@@ -20,6 +20,9 @@ export default {
 .container{
  color:red
 }
+.nav{
+    background-color: green;
+}
 </style>
 
 
