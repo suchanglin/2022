@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style <style lang="less">
+<style lang="less">
 .container{
  color:red
 }
