@@ -14,6 +14,6 @@ export default {
 .container{
  color:red
 }
-</style>>
+</style>
 
 
