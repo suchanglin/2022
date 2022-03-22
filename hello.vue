@@ -1,6 +1,7 @@
 <template>
     <div>
         <p>this is a file for me test github and git</p>
+        <p>i deleted the branch dev and merge to main,at last main was gone...</p>
     </div>
 </template>
 
