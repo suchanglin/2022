@@ -21,6 +21,6 @@
         color: red;
     }
     .nav {
-        background-color: green;
+        background-color: pink;
     }
 </style>
