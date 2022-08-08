@@ -7,3 +7,4 @@ Model.findByPk(1)等同于Model.findOne({primaryKey: 1})
 0806
 0807
 restful get  post delete  put
+0808
