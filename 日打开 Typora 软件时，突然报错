@@ -1,0 +1,3 @@
+打开注册表：按Windows+R打开运行窗口，输入 regedit。
+进入路径计算机\HKEY_CURRENT_USER\SOFTWARE\Typora。
+在右键菜单选择权限，把各个用户的权限全部设置为 拒绝。(组或用户名   本人机器共四项，一个一个点击，全部选择拒绝)
