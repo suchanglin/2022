@@ -1,3 +1,10 @@
 1001
 1002麦小兜
 1003
+1004inux 输入指令显示 command not found  
+①find / -name  软件名称
+例如:
+ find / -name nginx
+ ②ln -s 文件路径  环境变量路径
+ 例如
+ln -s /usr/local/nginx/sbin/nginx  /usr/bin
