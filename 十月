@@ -8,3 +8,4 @@
  ②ln -s 文件路径  环境变量路径
  例如
 ln -s /usr/local/nginx/sbin/nginx  /usr/bin
+1005
