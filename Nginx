@@ -1,0 +1,49 @@
+./configure        --- 用来检测安装平台的目标特征
+make                  --- 用来编译( 从Makefile中读取指令，然后编译)
+make install        --- 用来安装( 从Makefile中读取指令，安装到指定的位置)
+
+
+Configuration summary
+  + using system PCRE library
+  + OpenSSL library is not used
+  + using system zlib library
+
+  nginx path prefix: "/usr/local/nginx"
+  nginx binary file: "/usr/local/nginx/sbin/nginx"
+  nginx modules path: "/usr/local/nginx/modules"
+  nginx configuration prefix: "/usr/local/nginx/conf"
+  nginx configuration file: "/usr/local/nginx/conf/nginx.conf"
+  nginx pid file: "/usr/local/nginx/logs/nginx.pid"
+  nginx error log file: "/usr/local/nginx/logs/error.log"
+  nginx http access log file: "/usr/local/nginx/logs/access.log"
+  nginx http client request body temporary files: "client_body_temp"
+  nginx http proxy temporary files: "proxy_temp"
+  nginx http fastcgi temporary files: "fastcgi_temp"
+  nginx http uwsgi temporary files: "uwsgi_temp"
+  nginx http scgi temporary files: "scgi_temp"
+
+
+
+
+cd /usr/local/nginx/sbin
+./nginx
+ 
+查看是否启动成功命令：ps -ef | grep nginx
+ 
+注意：如果你是在阿里云服务器部署（有的人在自己的vmwar虚拟机里面部署），
+那么就要登陆阿里云服务器，上防火墙一列开放你的nginx启动端口，否则访问不了！！！
+
+find / -name nginx
+
+rm -rf /usr/local/nginx
+
+//一键安装上面四个依赖
+yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel
+
+./configure --with-http_stub_status_module --with-http_ssl_module
+
+
+# 打开配置文件
+vi /usr/local/nginx/conf/nginx.conf
+
+vi /usr/local/nginx/conf/nginx.conf
