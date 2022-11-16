@@ -16,3 +16,5 @@
 1116  一般  Access denied for user ‘root‘@‘localhost‘ (using password: YES)  就是数据库登录密码错误
 
 宝塔  数据库 root密码就是要登录的密码，这是一个坑点
+
+阿里云直接分为内网IP和公网IP， 腾讯云内网IP和 外部连接域名
