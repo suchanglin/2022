@@ -5,3 +5,33 @@
 1205
 1206江泽民火花，打不开网站
 1207
+
+赚钱不是一件想做就能做的事情，而是一门需要学习的技能。
+
+
+追求财富，而不是金钱或地位。财富是指在你睡觉时仍能为你赚钱的资产。
+金钱是我们转换时间和财富的方式。
+地位是你在社会等级体系中所处的位置。
+
+
+postman 字段前面不能有空格之类
+
+mysql -uroot -p
+
+172.16.0.8   3306
+
+gz-cdb-ko1odamh.sql.tencentcdb.com   56912
+
+mysql -h 172.16.0.8 -u root -p
+
+
+
+
+mysql -h gz-cdb-ko1odamh.sql.tencentcdb.com -P 56912 -u su_chang_lin -p
+
+
+
+Access denied for user 'root'@'localhost'
+
+Linux SSH登录	
+43.139.136.14
